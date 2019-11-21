@@ -1,0 +1,2 @@
+project-name: bank-in-a-box
+stack: kabanero/java-microprofile:0.2
