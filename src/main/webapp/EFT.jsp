@@ -228,12 +228,7 @@ fieldset {
 					<div class="col-xs-12 inherit-position">
 						<div>
 							<div id="logo-group">
-								<span id="logo" class="logoSub"> <a
-									href="javascript:void(0)"> <img
-										src="https://sube.halkbank.com.tr/InternetBankingHost/Features/wwwroot/statics/sa/img/Halkbank/HALKBANK_logo2.svg"
-										alt="Halk Bankası" border="0" class="IBLogo" />
-								</a>
-								</span>
+							
 							</div>
 						</div>
 						 

@@ -1,3 +1,4 @@
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -229,9 +230,7 @@ fieldset {
 						<div>
 							<div id="logo-group">
 								<span id="logo" class="logoSub"> <a
-									href="javascript:void(0)"> <img
-										src="https://sube.halkbank.com.tr/InternetBankingHost/Features/wwwroot/statics/sa/img/Halkbank/HALKBANK_logo2.svg"
-										alt="Halk Bankası" border="0" class="IBLogo" />
+									href="javascript:void(0)"> <img alt="Jenga Bankası" border="0" class="IBLogo" />
 								</a>
 								</span>
 							</div>
@@ -4317,13 +4316,13 @@ fieldset {
 		</div>
 
 	</aside>
-	<vb-menu vb-id="topMenu"></vb-menu>
+	
 	<div id="main" class="home">
 		<section class="contentArea">
 			<section class="contentAreaMain" id="widget-grid">
 				<vb-spinner></vb-spinner>
-				<div class="spinner-loading-overlay"></div>
-				<vb-timeout-popup vb-id="timeout"></vb-timeout-popup>
+			 
+				
 
 			
 					<div ui-view role="main" align="center">
@@ -4332,7 +4331,7 @@ fieldset {
 
 
 <div class="container">  
-  <form id="contact" action="../EftIslem" method="post">
+  <form id="contact" action="../HalkbankEFT/EftIslem" method="post">
     <h3>EFT Gönderim Özeti</h3>
     <h4>Para Transferi</h4>
     <div align="left">
@@ -4350,36 +4349,43 @@ fieldset {
     <hr size="20px" />
     
     <fieldset>
-    <label style="color: #2B46F1;font-weight: bold;"><b> EFT TİPİ&nbsp; :&nbsp; &nbsp;  </b></label><label> EFT</label>
+    <label style="color: #2B46F1;font-weight: bold;"><b> Eft Tipi&nbsp; :&nbsp; &nbsp;  </b></label><label> EFT</label>
     </fieldset>
     
+    <fieldset>
+    <label style="color: #2B46F1;font-weight: bold;"><b> Eft Tarihi&nbsp; :&nbsp; &nbsp;  </b></label><label> 12/25/2019</label>
+    </fieldset>
           
-      <fieldset>
-       <input type="text" id="datepicker">
-      </fieldset>
+    <fieldset>
+    <label style="color: #2B46F1;font-weight: bold;"><b> IBAN &nbsp; :&nbsp; &nbsp;  </b></label><label> TR 34 8382 9298 8229 1821</label>
+    </fieldset>
+    
+     <fieldset>
+    <label style="color: #2B46F1;font-weight: bold;"><b> Alıcı Adı Soyadi &nbsp; :&nbsp; &nbsp;  </b></label><label> Gokhan Yılmaz</label>
+    </fieldset>
+    
+     <fieldset>
+    <label style="color: #2B46F1;font-weight: bold;"><b> Eft Tutarı &nbsp; :&nbsp; &nbsp;  </b></label><label> 500.00 TL</label>
+    </fieldset>
+    
+     <fieldset>
+    <label style="color: #2B46F1;font-weight: bold;"><b> Komisyon Tutarı &nbsp; :&nbsp; &nbsp;  </b></label><label> 2.00 TL</label>
+    </fieldset>
+    
+     <fieldset>
+    <label style="color: #2B46F1;font-weight: bold;"><b> Acıklama &nbsp; :&nbsp; &nbsp;  </b></label><label> Teşekkurler...</label>
+    </fieldset>
     
     
     <fieldset>
-      <input placeholder="IBAN" type="tel" tabindex="4" required>
-    </fieldset>
-     <fieldset>
-      <input placeholder="Alıcı Adı Soyadı" type="tel" tabindex="4" required>
-    </fieldset>
-     <fieldset>
-      <input placeholder="Eft Tutarı TL" name="money" id="money" type="tel" tabindex="4" required>
-    </fieldset>
-    <fieldset>
-      <textarea placeholder="Acıklama" tabindex="5" required></textarea>
-    </fieldset>
-    <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Gönder</button>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Onayla</button>
     </fieldset>
     <p class="copyright">by Jenga Team</a></p>
   </form>
 </div>
 
 
-					</div>
+			 
 				
 
 			</section>
