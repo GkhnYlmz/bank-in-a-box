@@ -1120,7 +1120,7 @@ fieldset {
 															data-url="ATMCardList" data-icon-css="icon-Bank24-Kart">
 																<i class="icomoon icon-Bank24-Kart"></i>
 																<h3 aria-label="Bank24 Kart" role="heading">Bank24
-																	Kart</h3>
+																	Kart </h3>
 														</a></li>
 														<li data-parent="Banka Kartlarım"><a role="menuitem"
 															href="javascript:void(0)" class="isTransaction"
