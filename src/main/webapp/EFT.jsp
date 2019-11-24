@@ -1142,7 +1142,7 @@ fieldset {
 														<li data-parent="Banka Kartlarım"><a role="menuitem"
 															href="javascript:void(0)" class="isTransaction"
 															data-title="Karta Hesap Bağlama" data-func=""
-															data-url="ATMCardAccountToCardAttachment"
+															data-url="ATMCardAccountToCardAttachment "
 															data-icon-css="icon-Karta-Hesap-Baglama2"> <i
 																class="icomoon icon-Karta-Hesap-Baglama2"></i>
 																<h3 aria-label="Karta Hesap Bağlama" role="heading">
