@@ -4332,7 +4332,7 @@ fieldset {
 
 <div class="container">  
   <form id="contact" action="../EftIslem" method="post">
-    <h3>EFT Gönderim Özeti</h3>
+    <h3><b>EFT Gönderim Özeti</b></h3>
     <h4>Para Transferi</h4>
     <div align="left">
     <fieldset>
