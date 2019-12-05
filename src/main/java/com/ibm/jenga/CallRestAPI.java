@@ -48,6 +48,7 @@ public class CallRestAPI {
 		
 		
 		    System.out.println(POST_PARAMS);
+		    System.out.println("JAVA_HOME Value:- " + System.getenv("JAVA_HOME"));
 		    URL obj = new URL("http://ace-rest-route-bank-in-a-box.yohanhabanero-f359424cb9067b462eab3a25b794045a-0001.eu-de.containers.appdomain.cloud/odmcommisionrules/v1/getCommission");
 		    HttpURLConnection postConnection = (HttpURLConnection) obj.openConnection();
 		    postConnection.setRequestMethod("POST");
