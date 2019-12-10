@@ -50,7 +50,8 @@ public class CallRestAPI {
 		    System.out.println(POST_PARAMS);
 		    System.out.println("Value Coming from bank-in-a-box-cm:- " + System.getenv("SAY_HELLO_GOKHAN"));
 		    //http://ace-rest-route-bank-in-a-box.yohanhabanero-f359424cb9067b462eab3a25b794045a-0001.eu-de.containers.appdomain.cloud/odmcommisionrules/v1/getCommission
-		    System.out.println("URL is added as env variable");
+		    System.out.println("URL is added as env variable:" + " " +  System.getenv("SAY_HELLO_GOKHAN"));
+		    
 		    URL obj = new URL(System.getenv("ACE_URL"));
 		    HttpURLConnection postConnection = (HttpURLConnection) obj.openConnection();
 		    postConnection.setRequestMethod("POST");

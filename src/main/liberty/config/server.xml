@@ -3,6 +3,7 @@
     	<feature>jsp-2.3</feature>
 		<feature>microProfile-2.2</feature>
 		<feature>servlet-4.0</feature>
+		<feature>monitor-1.0</feature>
 	</featureManager>
     <quickStartSecurity userName="admin" userPassword="adminpwd"/>
     <keyStore id="defaultKeyStore" location="key.jks" type="jks" password="mpKeystore"/>
