@@ -5,10 +5,18 @@ metadata:
     architecture: x86_64
     authoritative-source-url: registry.access.redhat.com
     build-date: 2019-10-29T16:44:53.794580
+    commit.image.appsody.dev/author: gokhanyilmaz <gokhanyilmaz>
+    commit.image.appsody.dev/committer: gokhanyilmaz <gokhanyilmaz>
+    commit.image.appsody.dev/date: Mon Nov 25 08:41:06 2019 +0300
+    commit.image.appsody.dev/message: v1.4 is committed
     description: This image contains the Kabanero development stack for the java-microprofile
       collection
     distribution-scope: public
-    image.opencontainers.org/created: "2019-11-21T19:18:50+03:00"
+    image.opencontainers.org/created: "2019-12-05T14:18:48+03:00"
+    image.opencontainers.org/documentation: https://github.com/GkhnYlmz/bank-in-a-box
+    image.opencontainers.org/revision: 64971fb0048e60af2724db99fb2e1c3a2b1e1c9c-modified
+    image.opencontainers.org/source: https://github.com/GkhnYlmz/bank-in-a-box/tree/master
+    image.opencontainers.org/url: https://github.com/GkhnYlmz/bank-in-a-box
     k8s.io/description: The Universal Base Image is designed and engineered to be
       the base layer for all of your containerized applications, middleware and utilities.
       This base image is freely redistributable, but Red Hat only supports Red Hat
@@ -24,8 +32,8 @@ metadata:
     redhat.com/license_terms: https://www.redhat.com/en/about/red-hat-end-user-license-agreements#UBI
     release: "277"
     stack.appsody.dev/configured: kabanero/java-microprofile:0.2
-    stack.appsody.dev/created: 2019-11-19T17:38:46+0000
-    stack.appsody.dev/revision: 82c11bd3fda141fc56df6653a58a3567dfe87d46
+    stack.appsody.dev/created: 2019-12-04T17:20:59+0000
+    stack.appsody.dev/revision: 7ad65bd9ec95dc9a39fb430a4f56ef63e9026d7f
     stack.appsody.dev/tag: kabanero/java-microprofile:0.2.19
     summary: Image for Kabanero java-microprofile development
     url: https://access.redhat.com/containers/#/registry.access.redhat.com/ubi8/images/8.1-277
