@@ -7,14 +7,14 @@ metadata:
     build-date: 2019-10-29T16:44:53.794580
     commit.image.appsody.dev/author: gokhanyilmaz <gokhanyilmaz>
     commit.image.appsody.dev/committer: gokhanyilmaz <gokhanyilmaz>
-    commit.image.appsody.dev/date: Mon Nov 25 08:41:06 2019 +0300
-    commit.image.appsody.dev/message: v1.4 is committed
+    commit.image.appsody.dev/date: Tue Dec 10 11:36:14 2019 +0300
+    commit.image.appsody.dev/message: message 1
     description: This image contains the Kabanero development stack for the java-microprofile
       collection
     distribution-scope: public
-    image.opencontainers.org/created: "2019-12-05T14:18:48+03:00"
+    image.opencontainers.org/created: "2019-12-10T12:02:40+03:00"
     image.opencontainers.org/documentation: https://github.com/GkhnYlmz/bank-in-a-box
-    image.opencontainers.org/revision: 64971fb0048e60af2724db99fb2e1c3a2b1e1c9c-modified
+    image.opencontainers.org/revision: 63cdaea797f2f3508e5867f6c841c06f2677bc38-modified
     image.opencontainers.org/source: https://github.com/GkhnYlmz/bank-in-a-box/tree/master
     image.opencontainers.org/url: https://github.com/GkhnYlmz/bank-in-a-box
     k8s.io/description: The Universal Base Image is designed and engineered to be
@@ -63,6 +63,22 @@ spec:
     httpGet:
       path: /health/ready
       port: 9080
+  env:
+     - name: ACE_URL
+       valueFrom:
+         configMapKeyRef:
+           name: bank-in-a-box-cm
+           key: ACE_URL
+     - name: MERHABA
+       valueFrom:
+         configMapKeyRef:
+           name: bank-in-a-box-cm
+           key: MERHABA
+      - name: SAY_HELLO_GOKHAN  
+       valueFrom:
+         configMapKeyRef:
+           name: bank-in-a-box-cm
+           key: SAY_HELLO_GOKHAN  
     initialDelaySeconds: 5
     periodSeconds: 2
     timeoutSeconds: 1

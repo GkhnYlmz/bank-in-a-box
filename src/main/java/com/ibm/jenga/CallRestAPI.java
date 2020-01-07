@@ -49,7 +49,7 @@ public class CallRestAPI {
 		
 		    System.out.println(POST_PARAMS);
 		    System.out.println("Value Coming from bank-in-a-box-cm:- " + System.getenv("SAY_HELLO_GOKHAN"));
-		    System.out.println("Value2  Coming from bank-in-a-box-cm:- " + System.getenv("MERHABA"));
+		    System.out.println("Value2  Coming from bank-in-a-box-cm:- " + System.getenv("MERHABA with configMap"));
 		    //QnB
 		    System.out.println("QnB");
 
