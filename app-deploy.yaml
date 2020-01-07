@@ -63,22 +63,6 @@ spec:
     httpGet:
       path: /health/ready
       port: 9080
-  env:
-     - name: ACE_URL
-       valueFrom:
-         configMapKeyRef:
-           name: bank-in-a-box-cm
-           key: ACE_URL
-     - name: MERHABA
-       valueFrom:
-         configMapKeyRef:
-           name: bank-in-a-box-cm
-           key: MERHABA
-      - name: SAY_HELLO_GOKHAN  
-       valueFrom:
-         configMapKeyRef:
-           name: bank-in-a-box-cm
-           key: SAY_HELLO_GOKHAN  
     initialDelaySeconds: 5
     periodSeconds: 2
     timeoutSeconds: 1
