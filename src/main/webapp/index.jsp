@@ -4,7 +4,7 @@
 <html   >
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Jenga İnternet Şubesi</title>
+    <title>Merhaba</title>
     <base href="/InternetBankingHost/" />
     <!-- Meta Tags -->
     <meta charset="utf-8">
